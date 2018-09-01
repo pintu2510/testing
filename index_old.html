@@ -1,0 +1,625 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no, minimum-scale=1.0, maximum-scale=1.0">
+<title>Order Online</title>
+<link href="https://fonts.googleapis.com/css?family=Nunito:300,400,600,700" rel="stylesheet">
+<link href="css/global.css" rel="stylesheet" type="text/css" />
+</head>
+
+<body>
+<!-- Log IN Sign Up Layer -->
+	<div class="modalpopup" style="display: none;">
+		<div class="modalbody">
+			<a href="#" class="cls">x</a>
+			<div class="dspTable wFull">
+				<div class="dspTblCell vaT pad20 pall bgltgrey boRds6lft">
+					<div class="lyrLft">
+					<img src="images/layer-1.png" />	
+						<p>Get <strong>20% Discount</strong> on your <strong>First Order</strong> and <strong>20% Cashback</strong> on your <strong>Second Order</strong>.</p>
+						<div class="clear20"></div>
+						<p><img src="images/sample_carousel.png" /></p>
+					</div>
+				</div>
+				<div class="dspTblCell vaT" style="width: 400px;">
+					
+					<!-- Login -->
+					<div class="pad30 pall show">
+						<h2>Login</h2>
+						<div class="form-group">
+							<label>Enter Mobile Number or Email ID</label>
+							<input type="text" class="form-input tx48" placeholder="Enter Mobile Number or Email ID" />
+						</div>
+						<div class="form-group">
+							<label>Enter Password</label>
+							<a href="#" class="fR csrPtr f12">Forgot Password?</a>
+							<input type="password" class="form-input tx48" placeholder="Enter Password" />
+						</div>
+						<div class="checkFamily dsplNBlock">
+							<input type="checkbox" />
+							<i></i>
+							<em>Remember me</em>
+						</div>
+						<div class="clear30"></div>
+						<p><button type="submit" class="btn-primary" />Login Now</button></p>
+						<div class="clear30"></div>
+						<p>New to ZappFresh? <a href="#">Sign Up</a></p>
+					</div>
+					<!-- Login -->
+					<!-- Sign Up -->
+					<div class="pad30 pall noshow">
+						<h2>Sign Up</h2>
+						<div class="form-group">
+							<label>Enter Email ID</label>
+							<input type="text" class="form-input tx48" placeholder="Enter Email ID" />
+						</div>
+						<div class="form-group">
+							<label>Enter Mobile Number</label>
+							<input type="text" class="form-input tx48" placeholder="Enter Mobile Number" />
+						</div>
+						<div class="form-group">
+							<label>Enter Password</label>
+							<input type="password" class="form-input tx48" placeholder="Enter Password" />
+						</div>
+						<div class="clear30"></div>
+						<p><button type="submit" class="btn-primary" />Sign Up</button></p>
+						<div class="clear30"></div>
+						<p>Already on ZappFresh? <a href="#">Login</a></p>
+					</div>
+					<!-- Signup -->
+				</div>
+			</div>
+		</div>
+	</div>
+	<div class="modal-overlay" style="display: none;"></div>
+<!-- Log IN Sign Up Layer -->
+
+<!-- My Cart Layer -->
+	<div class="modalpopup" style="display: none;">
+		<div class="modalbody">
+			<div class="pad30 pall">
+				<div class="" style="height: 360px; overflow: auto;">
+				<div class="dspTable wFull crtLst mar30 mbottom">
+					<div class="dspTblCell vaT">
+						<img src="images/our-product-chicken.jpg" />
+					</div>
+					<div class="dspTblCell vaT pad20 pright pleft">
+						<strong class="dspBlock">Chicken Whole without Skin</strong>
+						<small class="dspBlock tgrey f11 mar5 mtop">6/7 Pcs/400gms (4 variants)</small>
+						<p class="mar20 mtop">
+							<strong class="dsplNBlock vam mar20 mright">Quantity</strong>
+							<a href="#" class="dsplNBlock vam hasbrdr tblack f13" style="padding: 6px 13px;">-</a>
+							<span class="dsplNBlock vam mar20 mright mleft">0.5kg</span>
+							<a href="#" class="dsplNBlock vam hasbrdr tblack f13" style="padding: 6px 13px;">+</a>
+						</p>
+					</div>
+					<div class="dspTblCell vaT pad30 pleft">
+						<p><strong class="dsplNBlock mar10 mright vam">&#8377; 2245.90</strong><a href="#" class="ico_delete"></a></p>
+					</div>
+				</div>
+				<div class="dspTable wFull crtLst mar30 mtop mbottom">
+					<div class="dspTblCell vaT">
+						<img src="images/our-product-chicken.jpg" />
+					</div>
+					<div class="dspTblCell vaT pad20 pright pleft">
+						<strong class="dspBlock">Chicken Whole without Skin</strong>
+						<small class="dspBlock tgrey f11 mar5 mtop">6/7 Pcs/400gms (4 variants)</small>
+						<p class="mar20 mtop">
+							<strong class="dsplNBlock vam mar20 mright">Quantity</strong>
+							<a href="#" class="dsplNBlock vam hasbrdr tblack f13" style="padding: 6px 13px;">-</a>
+							<span class="dsplNBlock vam mar20 mright mleft">0.5kg</span>
+							<a href="#" class="dsplNBlock vam hasbrdr tblack f13" style="padding: 6px 13px;">+</a>
+						</p>
+					</div>
+					<div class="dspTblCell vaT pad30 pleft">
+						<p><strong class="dsplNBlock mar10 mright vam">&#8377; 10045.90</strong><a href="#" class="ico_delete"></a></p>
+					</div>
+				</div>
+				<div class="dspTable wFull crtLst mar30 mtop mbottom">
+					<div class="dspTblCell vaT">
+						<img src="images/our-product-chicken.jpg" />
+					</div>
+					<div class="dspTblCell vaT pad20 pright pleft">
+						<strong class="dspBlock">Chicken Whole withour Skin</strong>
+						<small class="dspBlock tgrey f11 mar5 mtop">6/7 Pcs/400gms (4 variants)</small>
+						<p class="mar20 mtop">
+							<strong class="dsplNBlock vam mar20 mright">Quantity</strong>
+							<a href="#" class="dsplNBlock vam hasbrdr tblack f13" style="padding: 6px 13px;">-</a>
+							<span class="dsplNBlock vam mar20 mright mleft">0.5kg</span>
+							<a href="#" class="dsplNBlock vam hasbrdr tblack f13" style="padding: 6px 13px;">+</a>
+						</p>
+					</div>
+					<div class="dspTblCell vaT pad30 pleft">
+						<p><strong class="dsplNBlock mar10 mright vam">&#8377; 145.90</strong><a href="#" class="ico_delete"></a></p>
+					</div>
+				</div>
+				<div class="dspTable wFull crtLst mar30 mtop mbottom">
+					<div class="dspTblCell vaT">
+						<img src="images/our-product-chicken.jpg" />
+					</div>
+					<div class="dspTblCell vaT pad20 pright pleft">
+						<strong class="dspBlock">Chicken Whole withour Skin</strong>
+						<small class="dspBlock tgrey f11 mar5 mtop">6/7 Pcs/400gms (4 variants)</small>
+						<p class="mar20 mtop">
+							<strong class="dsplNBlock vam mar20 mright">Quantity</strong>
+							<a href="#" class="dsplNBlock vam hasbrdr tblack f13" style="padding: 6px 13px;">-</a>
+							<span class="dsplNBlock vam mar20 mright mleft">0.5kg</span>
+							<a href="#" class="dsplNBlock vam hasbrdr tblack f13" style="padding: 6px 13px;">+</a>
+						</p>
+					</div>
+					<div class="dspTblCell vaT pad30 pleft">
+						<p><strong class="dsplNBlock mar10 mright vam">&#8377; 145.90</strong><a href="#" class="ico_delete"></a></p>
+					</div>
+				</div>
+				</div>
+				<div class="dspTable wFull crtLst mar30 mtop">
+					<div class="dspTblCell vaT">
+						<p class="tgrey">Total Payable Amount:</p>
+						<p class="tbold f16">&#8377; 31145.90</p>
+					</div>
+					<div class="dspTblCell vaT tright">
+						<button>Checkout</button>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div class="modal-overlay" style="display: none;"></div>
+<!-- My Cart Layer -->
+
+	
+	
+	<header>
+		<div class="hdr">
+			<a href="#" class="logo"></a>
+			<div class="lft">
+				<a href="#">DOWNLOAD APP</a>
+				<p>
+					<select>
+						<option>New Delhi</option>
+						<option>Gurgaon</option>
+						<option>Noida</option>
+						<option>Ghaziabad</option>
+					</select>
+					<input type="text" placeholder="Search Products" />
+				</p>
+			</div>
+			<div class="rgt">
+				<label>+91 987654321</label>
+				<a href="#" class="crt">Cart<i>2</i></a>
+				<a href="#" class="prfl">Profile</a>
+			</div>
+		</div>
+		<div class="main">
+			<ul class="pad20 pall ttU tcenter nav">
+				<li class="dsplNBlock vam mar20 mright mleft"><a href="#" class="f12 tbold">Chicken</a></li>
+				<li class="dsplNBlock vam mar20 mright mleft"><a href="#" class="f12 tbold">Mutton</a></li>
+				<li class="dsplNBlock vam mar20 mright mleft"><a href="#" class="f12 tbold">Sea Food</a></li>
+				<li class="dsplNBlock vam mar20 mright mleft"><a href="#" class="f12 tbold">Pre-Cooked</a></li>
+				<li class="dsplNBlock vam mar20 mright mleft"><a href="#" class="f12 tbold">Cold Cuts</a></li>
+				<li class="dsplNBlock vam mar20 mright mleft"><a href="#" class="f12 tbold">Marinated</a></li>
+				<li class="dsplNBlock vam mar20 mright mleft"><a href="#" class="f12 tbold">Deals</a></li>
+			</ul>
+		</div>	
+	</header>
+	
+	<!-- Banner Slider -->
+	<div class="" style="background:url(images/banner_1.jpg) no-repeat center center/cover; height: 300px;">
+		
+	</div>
+	<!-- Banner Slider -->
+	
+	
+	<div class="main_ctnr pad20 pall tcenter borRadius6 Shadow bgWhite" style="position: relative; top: -40px;">
+		<div class="clear10"></div>
+		<div class="list">
+		<p class="item mar30 mright">
+			<img src="images/icon_farms.png" class="dsplNBlock vam" />
+			<span class="dsplNBlock vam mar20 mleft tleft">
+				<strong class="dspBlock f16">Direct From Farms</strong>
+				<label class="f10 tgrey">The journey of our product...</label>
+			</span>
+		</p>
+		<p class="item mar30 mright mleft">
+			<img src="images/icon_slaughter.png" class="dsplNBlock vam" />
+			<span class="dsplNBlock vam mar20 mleft tleft">
+				<strong class="dspBlock f16">To Slaughter Houses</strong>
+				<label class="f10 tgrey">The journey of our product...</label>
+			</span>
+		</p>
+		<p class="item mar30 mright mleft">
+			<img src="images/icon_unit.png" class="dsplNBlock vam" />
+			<span class="dsplNBlock vam mar20 mleft tleft">
+				<strong class="dspBlock f16">To Processing Unit</strong>
+				<label class="f10 tgrey">The journey of our product...</label>
+			</span>
+		</p>
+		<p class="item mar30 mleft">
+			<img src="images/icon_doorstep.png" class="dsplNBlock vam" />
+			<span class="dsplNBlock vam mar20 mleft tleft">
+				<strong class="dspBlock f16">To Your Doorstep</strong>
+				<label class="f10 tgrey">The journey of our product...</label>
+			</span>
+		</p>
+		</div>
+		<div class="clear10"></div>
+	</div>
+	
+	<!-- Hot deals -->
+		<div class="main_ctnr">
+			<h2 class="mar0 pad0 pall mall">Hot Deals</h2>
+			<h6 class="tgrey mar0 pad0 pall mall">Meaty Journey, Ready when you are, Be Choosy</h6>
+			<div class="clear20"></div>
+			<div class="list">
+				<div class="item pad25 pall bor1 borRadius6 mar20 mright">
+					<strong class="dspBlock">Chicken Thigh Boneless</strong>
+					<font class="dspBlock mar5 mtop mbottom f12 tgrey">6/7 Pcs / 400gms</font>
+					<i class="tag yellow">-30%</i>
+					<span class="dspBlock pad20 ptop pbottom tcenter"><img src="images/prod_1.jpg" /></span>
+					<div>
+						<p class="dsplNBlock pad20 pright vam">
+							<strong class="dspBlock f16">&#8377; 145.90</strong>
+							<label class="dspBlock tgrey f12">You save &#8377;14.90</label>
+						</p>
+						<button class="btnGrey dsplNBlock vam fR">Add to Cart</button>
+					</div>
+				</div>
+				<div class="item pad25 pall bor1 borRadius6 mar20 mright width510">
+					<strong class="dspBlock">Chicken Thigh Boneless</strong>
+					<font class="dspBlock mar5 mtop mbottom f12 tgrey">6/7 Pcs / 400gms</font>
+					<i class="tag yellow">-30%</i>
+					<span class="dspBlock pad20 ptop pbottom tcenter"><img src="images/prod_2.jpg" /></span>
+					<div>
+						<p class="dsplNBlock pad20 pright vam">
+							<strong class="dspBlock f16">&#8377; 145.90</strong>
+							<label class="dspBlock tgrey f12">You save &#8377;14.90</label>
+						</p>
+						<button class="btnGrey dsplNBlock vam">Add to Cart</button>
+					</div>
+				</div>
+				<div class="item pad25 pall bor1 borRadius6">
+					<strong class="dspBlock">Chicken Thigh Boneless</strong>
+					<font class="dspBlock mar5 mtop mbottom f12 tgrey">6/7 Pcs / 400gms</font>
+					<i class="tag yellow">-30%</i>
+					<span class="dspBlock pad20 ptop pbottom tcenter"><img src="images/prod_1.jpg" /></span>
+					<div>
+						<p class="dsplNBlock pad20 pright vam">
+							<strong class="dspBlock f16">&#8377; 145.90</strong>
+							<label class="dspBlock tgrey f12">You save &#8377;14.90</label>
+						</p>
+						<button class="btnGrey dsplNBlock vam">Add to Cart</button>
+					</div>
+				</div>
+			</div>
+		<div class="clear20"></div>
+		<div class="list">
+			<div class="item pad25 pall bor1 borRadius6 mar20 mright">
+				<strong class="dspBlock">Chicken Thigh Boneless</strong>
+				<font class="dspBlock mar5 mtop mbottom f12 tgrey">6/7 Pcs / 400gms</font>
+				<i class="tag yellow">-30%</i>
+				<span class="dspBlock pad20 ptop pbottom tcenter"><img src="images/prod_1.jpg" /></span>
+				<div>
+					<p class="dsplNBlock pad20 pright vam">
+						<strong class="dspBlock f16">&#8377; 145.90</strong>
+						<label class="dspBlock tgrey f12">You save &#8377;14.90</label>
+					</p>
+					<button class="btnGrey dsplNBlock vam">Add to Cart</button>
+				</div>
+			</div>
+			<div class="item pad25 pall bor1 borRadius6 mar20 mright">
+				<strong class="dspBlock">Chicken Thigh Boneless</strong>
+				<font class="dspBlock mar5 mtop mbottom f12 tgrey">6/7 Pcs / 400gms</font>
+				<i class="tag yellow">-30%</i>
+				<span class="dspBlock pad20 ptop pbottom tcenter"><img src="images/prod_1.jpg" /></span>
+				<div>
+					<p class="dsplNBlock pad20 pright vam">
+						<strong class="dspBlock f16">&#8377; 145.90</strong>
+						<label class="dspBlock tgrey f12">You save &#8377;14.90</label>
+					</p>
+					<button class="btnGrey dsplNBlock vam">Add to Cart</button>
+				</div>
+			</div>
+			<div class="item pad25 pall bor1 borRadius6 mar20 mright">
+				<strong class="dspBlock">Chicken Thigh Boneless</strong>
+				<font class="dspBlock mar5 mtop mbottom f12 tgrey">6/7 Pcs / 400gms</font>
+				<i class="tag yellow">-30%</i>
+				<span class="dspBlock pad20 ptop pbottom tcenter"><img src="images/prod_1.jpg" /></span>
+				<div>
+					<p class="dsplNBlock pad20 pright vam">
+						<strong class="dspBlock f16">&#8377; 145.90</strong>
+						<label class="dspBlock tgrey f12">You save &#8377;14.90</label>
+					</p>
+					<button class="btnGrey dsplNBlock vam">Add to Cart</button>
+				</div>
+			</div>
+			<div class="item pad25 pall bor1 borRadius6">
+				<strong class="dspBlock">Chicken Thigh Boneless</strong>
+				<font class="dspBlock mar5 mtop mbottom f12 tgrey">6/7 Pcs / 400gms</font>
+				<i class="tag yellow">-30%</i>
+				<span class="dspBlock pad20 ptop pbottom tcenter"><img src="images/prod_1.jpg" /></span>
+				<div>
+					<p class="dsplNBlock pad20 pright vam">
+						<strong class="dspBlock f16">&#8377; 145.90</strong>
+						<label class="dspBlock tgrey f12">You save &#8377;14.90</label>
+					</p>
+					<button class="btnGrey dsplNBlock vam">Add to Cart</button>
+				</div>
+			</div>
+		</div>
+		</div>
+		
+		<div class="clear30"></div>
+		<div class="clear30"></div>
+		<!-- Hot deals -->
+	<!-- Our Products -->
+		<div class="bgBlue pad30 ptop pbottom">
+			<div class="clear30"></div>
+			<div class="main_ctnr">
+				<h2 class="mar0 pad0 pall mall">Our Products</h2>
+				<h6 class="tgrey mar0 pad0 pall mall">Now track freshness of your meat and it's complete life cycle from farm to fork.</h6>
+				<div class="clear20"></div>
+				<div class="dspTable wFull">
+					<span class="dspTblCell vam">
+						<select class="select yellow">
+							<option>Products - All Products</option>
+							<option>Chicken</option>
+							<option>Mutton</option>
+							<option>Sea Food</option>
+							<option>Pre-Cooked</option>
+							<option>Cold Cuts</option>
+							<option>Marinated</option>
+						</select>
+					</span>
+					<span class="dspTblCell vam w20p tright"><button class="btn-primary vam">VIEW ALL PRODUCTS</button></span>
+				</div>
+				<div class="clear30"></div>
+				<div>
+					<div class="list">
+						<a href="#" class="ourProd op_chicken">
+							<div class="bgOvrly"></div>
+							<p>
+								<strong>Chicken</strong>
+								<span>Products</span>
+								<label>53 products</label>
+							</p>
+						</a>
+						<a href="#" class="ourProd op_mutton"><div class="bgOvrly"></div><p><strong>mutton</strong><span>Products</span><label>53 products</label></p></a>
+						<a href="#`" class="ourProd op_sea"><div class="bgOvrly"></div><p><strong>sea food</strong><span>Products</span><label>53 products</label></p></a>
+						<a href="#" class="ourProd op_cold"><div class="bgOvrly"></div><p><strong>cold cuts</strong><span>Products</span><label>53 products</label></p></a>
+					</div>
+					<div class="clear30"></div>
+					<div class="list">
+						<a href="#" class="ourProd op_pre"><div class="bgOvrly"></div><p><strong>pre-cooked</strong><span>Products</span><label>53 products</label></p></a>
+						<a href="#" class="ourProd op_marinades"><div class="bgOvrly"></div><p><strong>marinated</strong><span>Collection</span><label>53 products</label></p></a>
+						<a href="#" class="ourProd op_deals"><div class="bgOvrly"></div><p><strong>deals</strong><span>Products</span><label>53 products</label></p></a>
+						<a href="#" class="ourProd op_subs"><div class="bgOvrly"></div><p><strong>subscription</strong><span>Be Choosy</span><label>53 products</label></p></a>
+					</div>
+				</div>
+				<div class="clear20"></div>
+				<div class="tcenter pad20 ptop pbototm"><button class="btn-primary dsplNBlock vam">VIEW ALL PRODUCTS</button></div>
+			</div>
+			<div class="clear30"></div>
+		</div>
+		<!-- Our Products -->
+		
+		<!-- New Arrivals -->
+	<div class="clear30"></div>
+	<div class="main_ctnr">
+		<h2 class="mar0 pad0 pall mall">New Arrivals</h2>
+		<div class="clear20"></div>
+		
+		<div class="list">
+			<div class="item pad25 pall bor1 borRadius6 mar30 mright">
+				<strong class="dspBlock">Chicken Thigh Boneless</strong>
+				<font class="dspBlock mar5 mtop mbottom f12 tgrey">6/7 Pcs / 400gms</font>
+				<i class="tag yellow">-30%</i>
+				<span class="dspBlock pad20 ptop pbottom tcenter"><img src="images/prod_1.jpg" /></span>
+				<div>
+					<p class="dsplNBlock pad20 pright vam">
+						<strong class="dspBlock f16">&#8377; 145.90</strong>
+						<label class="dspBlock tgrey f12">You save &#8377;14.90</label>
+					</p>
+					<button class="btnGrey dsplNBlock vam">Add to Cart</button>
+				</div>
+			</div>
+			<div class="item pad25 pall bor1 borRadius6 mar30 mright">
+				<strong class="dspBlock">Chicken Thigh Boneless</strong>
+				<font class="dspBlock mar5 mtop mbottom f12 tgrey">6/7 Pcs / 400gms</font>
+				<i class="tag yellow">-30%</i>
+				<span class="dspBlock pad20 ptop pbottom tcenter"><img src="images/prod_1.jpg" /></span>
+				<div>
+					<p class="dsplNBlock pad20 pright vam">
+						<strong class="dspBlock f16">&#8377; 145.90</strong>
+						<label class="dspBlock tgrey f12">You save &#8377;14.90</label>
+					</p>
+					<button class="btnGrey dsplNBlock vam">Add to Cart</button>
+				</div>
+			</div>
+			<div class="item pad25 pall bor1 borRadius6">
+				<strong class="dspBlock">Chicken Thigh Boneless</strong>
+				<font class="dspBlock mar5 mtop mbottom f12 tgrey">6/7 Pcs / 400gms</font>
+				<i class="tag yellow">-30%</i>
+				<span class="dspBlock pad20 ptop pbottom tcenter"><img src="images/prod_1.jpg" /></span>
+				<div>
+					<p class="dsplNBlock pad20 pright vam">
+						<strong class="dspBlock f16">&#8377; 145.90</strong>
+						<label class="dspBlock tgrey f12">You save &#8377;14.90</label>
+					</p>
+					<button class="btnGrey dsplNBlock vam">Add to Cart</button>
+				</div>
+			</div>
+		</div>
+	</div>
+		<!-- Hot deals -->
+	
+		<!-- Journey Video -->
+		<div class="clear30"></div>
+		<div class="mar30 mtop mbottom main">
+			<a href="#"><img src="images/journey.jpg" class="borRadius6" /></a>
+		</div>	
+		<div class="clear30"></div>
+		<!-- Journey Video -->
+		
+	<!-- Product Journey -->
+	<div class="main_ctnr">
+		<h2>Zappfresh's Product Journey</h2>
+		<div class="clear20"></div>
+		<div class="list">
+		<p class="item pad20 pall borRadius6 boxN">
+			<img src="images/journey_1.png" class="dspBlock mar10 mbottom" />
+			<strong class="dspBlock mar15 mbottom">Direct From Farms</strong>
+			<label class="dspBlock f12 tgrey mar10 mbottom">The Journey of our product starts from high quality farms equipped with innovative technologies to ensure healthy growth of animals.</label>
+			<a href="#" class="f10 tUnderline tblue">Continue Reading...</a>
+		</p>
+		<p class="item pad20 pall borRadius6 mar10 mleft mright boxN">
+			<img src="images/journey_2.png" class="dspBlock mar10 mbottom" />
+			<strong class="dspBlock mar15 mbottom">To Slaughter Houses</strong>
+			<label class="dspBlock f12 tgrey mar10 mbottom">The Journey of our product starts from high quality farms equipped with innovative technologies to ensure healthy growth of animals.</label>
+			<a href="#" class="f10 tUnderline tblue">Continue Reading...</a>
+		</p>
+		<p class="item pad20 pall borRadius6 mar10 mleft mright boxN">
+			<img src="images/journey_3.png" class="dspBlock mar10 mbottom" />
+			<strong class="dspBlock mar15 mbottom">To Slaughter Houses</strong>
+			<label class="dspBlock f12 tgrey mar10 mbottom">The Journey of our product starts from high quality farms equipped with innovative technologies to ensure healthy growth of animals.</label>
+			<a href="#" class="f10 tUnderline tblue">Continue Reading...</a>
+		</p>
+		<p class="item pad20 pall borRadius6 mar10 mleft boxN">
+			<img src="images/journey_4.png" class="dspBlock mar10 mbottom" />
+			<strong class="dspBlock mar15 mbottom">To Slaughter Houses</strong>
+			<label class="dspBlock f12 tgrey mar10 mbottom">The Journey of our product starts from high quality farms equipped with innovative technologies to ensure healthy growth of animals.</label>
+			<a href="#" class="f10 tUnderline tblue">Continue Reading...</a>
+		</p>
+		</div>
+	</div>
+	
+	
+	
+	
+		
+	<!-- Footer -->
+		<section id="footer">
+			<div class="ftr bgBlue">
+				<div class="main pad20 pall">
+					<div class="clear20"></div>
+					
+					<div class="dsplNBlock vaT mar20 mright">
+						<ul class="lstNone">
+							<li class="mar20 mbottom"><strong>CONTACT INFO</strong></li>
+							<li class="tgrey mar10 mbottom">2/55 Tower Street, New York, USA</li>
+							<li class="tgrey mar10 mbottom">+91 9978909876</li>
+							<li class="tgrey mar10 mbottom">contact@zappfresh.com</li>
+							<li class="tgrey mar10 mbottom">www.zappfresh.com</li>
+						</ul>
+					</div>
+					
+					<div class="dsplNBlock vaT mar30 mright mleft">
+						<ul class="lstNone">
+							<li class="mar20 mbottom"><strong>QUICK LINKS</strong></li>
+							<li class="tgrey mar10 mbottom"><a href="#" class="tgrey">About Us</a></li>
+							<li class="tgrey mar10 mbottom"><a href="#" class="tgrey">FAQ</a></li>
+							<li class="tgrey mar10 mbottom"><a href="#" class="tgrey">Privacy Policy</a></li>
+							<li class="tgrey mar10 mbottom"><a href="#" class="tgrey">Terms &amp; Conditions</a></li>
+							<li class="tgrey mar10 mbottom"><a href="#" class="tgrey">Why Choose Us</a></li>
+							<li class="tgrey mar10 mbottom"><a href="#" class="tgrey">Quality Measures</a></li>
+						</ul>
+					</div>
+					
+					<div class="dsplNBlock vaT mar30 mright mleft">
+						<ul class="lstNone">
+							<li class="mar20 mbottom"><strong>OUR MENU</strong></li>
+							<li class="tgrey mar10 mbottom"><a href="#" class="tgrey">Chicken</a></li>
+							<li class="tgrey mar10 mbottom"><a href="#" class="tgrey">Mutton</a></li>
+							<li class="tgrey mar10 mbottom"><a href="#" class="tgrey">Seafoods</a></li>
+							<li class="tgrey mar10 mbottom"><a href="#" class="tgrey">Precooked Meat</a></li>
+							<li class="tgrey mar10 mbottom"><a href="#" class="tgrey">Cold Cuts</a></li>
+							<li class="tgrey mar10 mbottom"><a href="#" class="tgrey">Marinated</a></li>
+						</ul>
+					</div>
+					
+					<div class="dsplNBlock vaT mar30 mright mleft">
+						<ul class="lstNone">
+							<li class="mar20 mbottom"><strong>CARD WE ACCEPT</strong></li>
+							<li class="tgrey mar10 mbottom"><img src="images/payment_network.jpg" class="dspBlock" /></li>
+						</ul>
+					</div>
+					
+					<div class="dsplNBlock vaT mar150 mleft">
+						<ul class="lstNone">
+							<li class="mar20 mbottom"><strong>DOWNLOAD OUR APP</strong></li>
+							<li class="tgrey mar10 mbottom"><a href="#" target="_blank"><img src="images/logo_appstore.jpg" /></a></li>
+							<li class="tgrey mar10 mbottom"><a href="#" target="_blank"><img src="images/logo_android.jpg" /></a></li>
+						</ul>
+					</div>
+					
+					<strong class="mar20 mbottom dspBlock">POPULAR SEARCHES</strong>
+					<hr />
+					<div class="clear30"></div>
+					<strong class="mar10 mbottom dspBlock">Chicken</strong>
+					<p>
+						<a href="#" class="bigTag">Chicken Breast (Boneless)</a>
+						<a href="#" class="bigTag">Chicken (Skinless) - Curry Cut (Large)</a>
+						<a href="#" class="bigTag">Chicken Drumsticks (Skinless)</a>
+						<a href="#" class="bigTag">Chicken Mince/Keema</a>
+						<a href="#" class="bigTag">Chicken Supreme</a>
+					</p>
+					<div class="clear20"></div>
+					<hr />
+					<div class="clear30"></div>
+					<strong class="mar10 mbottom dspBlock">Red Meat</strong>
+					<p>
+						<a href="#" class="bigTag">Lamb Leg (Boneless)</a>
+						<a href="#" class="bigTag">Lamb Shoulder - Curry Cut (Medium)</a>
+						<a href="#" class="bigTag">Goat Mince/Keema</a>
+						<a href="#" class="bigTag">Lamb Chops (Ribs)</a>
+					</p>
+					<div class="clear20"></div>
+					<hr />
+					<div class="clear30"></div>
+					<strong class="mar10 mbottom dspBlock">Fish &amp; Seafood</strong>
+					<p>
+						<a href="#" class="bigTag">Anchovy Small (Whole - Cleaned & Gutted)</a>
+						<a href="#" class="bigTag">Basa Fillet (Platinum Grade)</a>
+						<a href="#" class="bigTag">Premium Grade Macherel (Cleaned)</a>
+						<a href="#" class="bigTag">Sardine (Whole - Cleaned & Gutted)</a>
+						<a href="#" class="bigTag">Freshwater Catla - Bengali </a>
+					</p>
+					<div class="clear20"></div>
+					<hr />
+					<div class="clear30"></div>
+					<strong class="mar10 mbottom dspBlock">Marinades</strong>
+					<p>
+						<a href="#" class="bigTag">Amritsari Achari Murgh</a>
+						<a href="#" class="bigTag">Caribbean Jerk Chicken (Boneless)</a>
+						<a href="#" class="bigTag">Nagaland Chicken pops</a>
+						<a href="#" class="bigTag">Chicken Tikka (Boneless)</a>
+						<a href="#" class="bigTag">tawa Tandoori Chicken (no oven)</a>
+					</p>
+					
+				<div class="clear30"></div>
+				<hr />
+				<div class="clear30"></div>
+				
+				<strong class="mar10 mbottom dspBlock tdarkGrey">We will sell only the meat that we would eat ourselves.</strong>
+				<p class="tdarkGrey">At Zappfresh, we’re big meat-lovers. And by big, we mean huge. So when it comes to the meat we put on your plate, we’re extremely picky. Every single product is handpicked by a team with years of experience.</p>
+				<div class="clear30"></div>
+				
+				<strong class="mar10 mbottom dspBlock tdarkGrey">If it’s not fresh, we won’t sell it</strong>
+				<p class="tdarkGrey">For meat to stay fresh and retain its natural juices, it needs to be stored at a temperature between 0° and 5°C. We maintain this temperature from the time we procure the product to cleaning, cutting and storing it, until it leaves for delivery. And even when it’s out for delivery, we keep it chilled right up to your doorstep.Did we mention that we’re obsessed?</p>
+				<div class="clear30"></div>
+					
+				<strong class="mar10 mbottom dspBlock tdarkGrey">We will charge only for what you buy</strong>
+				<p class="tdarkGrey">Doesn’t everyone do this? Not really. Most other places first weigh the meat, then cut up the pieces, and throw out the parts which aren’t fit to eat, such as offal, gizzard, wingtips, etc. But you still pay based on the original weight even though what you finally get is 10% to 30% less</p>
+				<div class="clear30"></div>
+				<hr />
+					
+				<div class="clear30"></div>
+				<strong class="mar10 mbottom dspBlock tdarkGrey">&copy;2017 Delightful Gourmet Pvt Ltd. All Rights Reserved.</strong>
+				<p class="tdarkGrey">Zappfresh is your one-stop fresh meat delivery shop. In here, you get nothing but the freshest meat & seafood, delivered straight to your doorstep. Now you can buy meat online anytime at your convenience. Indulge in our diverse selection: Chicken, Lamb, Seafood (Fish, Prawns, Crabs), Marinades & Cold Cuts. All our products are 100% Halal and completely natural and healthy. Once you've experienced Zappfreshhot de, you'll never go back to the old way of buying meat and seafood.</p>
+				<div class="clear30"></div>
+				</div>
+			</div>
+		</section>
+	<!-- Footer -->
+</body>
+</html>
